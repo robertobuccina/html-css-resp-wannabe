@@ -70,8 +70,9 @@ img {
 /* MEDIA QUERI - VW > 420PX  */
 
 
-/* BLOCCO LEZIONI */
 @media screen and (max-width: 420px){
+
+/* BLOCCO LEZIONI */
 
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -89,6 +90,19 @@ img {
     height: 100px;
   }
 
+/* BLOCCO STEPS */
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: 100%;
 }
 
+/* BLOCCO PERCHE */
 
+
+
+
+
+}
